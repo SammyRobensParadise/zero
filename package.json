@@ -1,0 +1,27 @@
+{
+  "name": "zero",
+  "version": "0.0.1",
+  "description": "Hopefully a DSP library written in WebAssembly, with a JavaScript Interface for DSP-in-the-browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SammyRobensParadise/zero.git"
+  },
+  "keywords": [
+    "DSP",
+    "WebAssembly"
+  ],
+  "author": "Sammy Robens-Paradise",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SammyRobensParadise/zero/issues"
+  },
+  "homepage": "https://github.com/SammyRobensParadise/zero#readme",
+  "dependencies": {
+    "http-server": "^14.1.0"
+  }
+}
