@@ -8,5 +8,5 @@ help:
 
 compile:
 	@echo "Building C++ functions from /functions to web assembly"
-	cd src/core/functions && clang++ --target=wasm32 --no-standard-libraries -Wl,--export-all -Wl,--no-entry -o add.wasm add.cpp
+	cd src/core && clang++ --target=wasm32 --no-standard-libraries -Wl,--export-all -Wl,--no-entry -o entry.wasm main.cpp
 	@echo "Success 🎉"
